@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  background: url("../img/IMG.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* NOVO CONTAINER */
+.all {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* MENU (card de cima) */
+.card {
+  margin-top: 5dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  height: 70px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(25px);
+  border-radius: 70px;
+  box-shadow: rgba(255, 254, 254, 1) 0px 0px 30px 0px;
+}
+
+/* CARD PRINCIPAL */
+.card2 {
+  margin-top: 15dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60dvh;
+  height: 60dvh;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(25px);
+  border-radius: 30px;
+  box-shadow: rgba(255, 254, 254, 1) 0px 0px 30px 0px;
+}
+
+/* MENU INTERNO */
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  color: white;
+  font-size: 20px;
+  height: 100%;
+}
+
+.menu p {
+  cursor: pointer;
+}
+/* LINKS */
+a {
+  text-decoration: none;
+  color: white;
+  transition: 0.2s;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  margin: 20px;
+}
+
+br {
+  gap: 10px;
+}
+p {
+  color: white;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

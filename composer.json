@@ -1,0 +1,25 @@
+{
+  "name": "victor/system_login",
+  "description": "Tela de cadastro e login com o desing moderno",
+  "autoload": {
+    "psr-4": {
+      "Firebase\\JWT\\": "vendor/firebase/php-jwt/src/",
+      "Victor\\SystemLogin\\Controllers\\": "system_login/app/controllers/",
+      "Victor\\SystemLogin\\Models\\": "system_login/app/models/",
+      "Victor\\SystemLogin\\Core\\": "system_login/app/core/",
+      "Victor\\SystemLogin\\Middleware\\": "system_login/app/middleware/",
+      "Victor\\SystemLogin\\Api\\Controllers\\": "system_login/Api/controllers/",
+      "Victor\\SystemLogin\\Api\\Models\\": "system_login/Api/models/",
+      "Victor\\SystemLogin\\Api\\Core\\": "system_login/Api/core/",
+      "Victor\\SystemLogin\\Api\\Middleware\\": "system_login/Api/middleware/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Victor Hugo"
+    }
+  ],
+  "require": {
+    "firebase/php-jwt": "*"
+  }
+}

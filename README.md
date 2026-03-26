@@ -180,7 +180,7 @@ Criar `.env`:
 
 ```
 DB_HOST=localhost
-DB_NAME=sistema_login
+DB_NAME=system_login
 DB_USER=root
 DB_PASS=
 ```
@@ -190,7 +190,7 @@ DB_PASS=
 ## 4️⃣ Criar banco de dados
 
 ```
-CREATE DATABASE sistema_login;
+CREATE DATABASE system_login;
 ```
 
 ---
@@ -261,8 +261,6 @@ Projeto focado em evolução real como desenvolvedor backend.
 
 Esse projeto não é apenas um login.
 É um **mini sistema completo de autenticação profissional**.
-
-👉 Perfeito para portfólio e entrevistas.
 
 ---
 

@@ -252,7 +252,7 @@ Este projeto foi construído em etapas:
 
 # 👨‍💻 Autor
 
-Desenvolvido por você 💪
+Desenvolvido por Victor Hugo
 Projeto focado em evolução real como desenvolvedor backend.
 
 ---
